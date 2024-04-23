@@ -51,7 +51,7 @@ Before you begin, ensure you have the following installed:
 1. [Visual Studio Code](https://code.visualstudio.com/)
 2. [REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-![Instructions for use](https://drive.google.com/file/d/1YuwLXsRLQagcTrwqD0CQCzHCpPhEh5D2/view)
+![Instructions for use](Test.Postman.Request/image.png)
 
 ## Requirements
 - Node.js (version >= 12)
