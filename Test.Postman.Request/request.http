@@ -1,13 +1,30 @@
+
 ### POST Register - http://localhost:4000/auth/register
 
 POST http://localhost:4000/auth/register
 Content-Type: application/json
 
 {
-    "name": "Ethan Doe",
-    "email": "Ethan@gmail.com",
-    "pass": "Ethan123$#"
+    "name": "Alice Smith",
+    "email": "alice.smith@example.com",
+    "pass": "Alice456!@"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###
 
