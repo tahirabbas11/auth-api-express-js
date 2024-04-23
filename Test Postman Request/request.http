@@ -1,0 +1,49 @@
+### POST Register - http://localhost:4000/auth/register
+
+POST http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Ethan Doe",
+    "email": "Ethan@gmail.com",
+    "pass": "Ethan123$#"
+}
+
+###
+
+### POST Login - http://localhost:4000/auth/login
+
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+    "email": "Ethan@gmail.com",
+    "pass": "Ethan123$#"
+}
+
+
+###
+
+### GET Protected Route - http://localhost:4000
+
+GET http://localhost:4000
+Authorization: Bearer paste-your-refresh-token-here-without-quotation-mark
+
+### GET Refresh Token
+
+POST http://localhost:4000/auth/refreshToken
+Content-Type: application/json
+
+{
+    "refreshToken": "paste-your-refresh-token-here-in-string"
+}
+###
+
+### DELETE Logout - http://localhost:4000/auth/logout
+
+DELETE http://localhost:4000/auth/logout
+Content-Type: application/json
+
+{
+  "refreshToken": "paste-your-refresh-token-here-in-string"
+}
