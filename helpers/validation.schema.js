@@ -1,7 +1,7 @@
 const Joi = require('@hapi/joi');
 
 const RegisterValidationSchema = Joi.object({
-  name: Joi.string().trim().required().min(3).pattern(new RegExp('^[a-zA-Z]+$'), { name: 'alphabets' }).messages({
+  name: Joi.string().trim().required().min(3).pattern(new RegExp('^[a-zA-Z\\s]+$'), { name: 'alphabets' }).messages({
     'any.required': 'Name is required.',
     'string.base': `Name should be a type of text.`,
     'string.empty': `Name cannot be an empty field.`,
