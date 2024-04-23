@@ -40,6 +40,19 @@ Brief description of your project.
       ```bash
       npm pretty
       ```
+
+## HTTP Requests Execution Guide
+
+This guide provides instructions for executing HTTP requests defined in the `.http` file using Visual Studio Code along with the REST Client extension.
+
+You can access a sample file demonstrating these steps here: [Test Postman Request/request.http](path_to_your_sample_file).
+Before you begin, ensure you have the following installed:
+
+1. [Visual Studio Code](https://code.visualstudio.com/)
+2. [REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
+![Instructions for use](https://drive.google.com/file/d/1YuwLXsRLQagcTrwqD0CQCzHCpPhEh5D2/view)
+
 ## Requirements
 - Node.js (version >= 12)
 - MongoDB (or any other required services)
